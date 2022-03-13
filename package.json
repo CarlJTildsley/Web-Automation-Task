@@ -4,17 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js",
-    "report": "open reports/report.html",
-    "video": "PWVIDEO=1 cucumber-js"
+    "test": "cucumber-js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@cucumber/cucumber": "^7.3.2",
     "@cucumber/pretty-formatter": "^1.0.0-alpha.1",
-    "@playwright/test": "^1.19.2",
-    "cucumber-html-reporter": "^5.5.0"
+    "@playwright/test": "^1.19.2"
   },
   "dependencies": {
     "ts-node": "^10.7.0"
